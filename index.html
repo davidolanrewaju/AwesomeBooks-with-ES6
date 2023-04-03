@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <nav id="nav">
+        <div id="list-link" class="logo">AwesomeBooks</div>
+        <ul class="nav-links">
+            <li class="nav-link">
+                <a id="list-link" href="#">Book List</a>
+            </li>
+            <li class="nav-link">
+                <a id="add-link" href="#">Add Book</a>
+            </li>
+            <li class="nav-link">
+                <a id="contact-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="date">
+        <p class="date-text"></p>
+    </section>
+
+    <main id="lists">
+      <h3>My Books</h3>
+      <div class="book-lists">
+          <div class="book-list">
+              <p>"Title" - Author</p>
+              <button class="remove">Remove</button>
+          </div>
+      </div>
+    </main>
+
+    <main id="add-books">
+      <h3>Add Books</h3>
+      <div class="add-book">
+          <form id="form" method="POST">
+              <input name="title" id="title" type="text" placeholder="Title" required>
+              <input name="author" id="author" type="text" placeholder="Author" required>
+              <div class="add-btn">
+                  <input type="submit" id="add" value="Add">
+              </div>
+          </form>
+      </div>
+    </main>
+
+    <main id="contact">
+        <h3>Contact us @</h3>
+        <ul class="contact-lists">
+            <li class="contact-list">
+                <p>E-mail: feedbacks@awesomebooks.com</p>
+            </li>
+            <li class="contact-list">
+                <p>Phone: +2345060010023</p>
+            </li>
+            <li class="contact-list">
+                <p>Address: No. 6, Kofowogbewe Street, VI, Lagos</p>
+            </li>
+        </ul>
+    </main>
+    
+    <footer id="footer">
+        <p>Copyright &copy; AwesomeBooks 2023.</p>
+    </footer>
+
+    <script src="/index.js" type="module"></script>
+</body>
+</html>
