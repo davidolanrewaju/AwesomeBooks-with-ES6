@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f8f9;
+}
+
+nav {
+  padding: 15px 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+}
+
+.logo {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-link a:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.date-text {
+  padding: 1rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#lists {
+  padding: 0 5rem;
+  margin: 3rem auto;
+}
+
+#lists h3 {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.book-list {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-list p {
+  font-size: 20px;
+}
+
+.remove {
+  padding: 10px 25px;
+  font-family: 'Roboto Mono', monospace;
+  outline: none;
+  border: none;
+  background: #907aff;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 2px 0 rgb(51, 51, 51);
+}
+
+#add-books {
+  display: none;
+  padding: 0 5rem;
+  margin: 3rem auto;
+}
+
+#add-books h3 {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#form {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 40% 40% 10%;
+  column-gap: 1%;
+  align-items: center;
+}
+
+#title,
+#author,
+#add {
+  padding: 10px 50px 10px 5px;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  font-weight: 600;
+  outline: none;
+  border: 1px solid #8a8a8a;
+}
+
+.add-btn {
+  text-align: center;
+}
+
+#add {
+  margin-left: 35px;
+  padding: 10px 50%;
+  font-family: 'Roboto Mono', monospace;
+  outline: none;
+  border: none;
+  background: #907aff;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+  box-shadow: 4px 4px 2px 0 rgb(51, 51, 51);
+}
+
+#contact {
+  display: none;
+  padding: 0 5rem;
+  margin: 3rem auto;
+}
+
+#contact h3 {
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+
+#footer {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 12px;
+}
