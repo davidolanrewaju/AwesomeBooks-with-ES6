@@ -8,7 +8,8 @@ import {
 
 import DateDisplay from './modules/date.js';
 
-const bookList = new BookList(".book-lists", "#form", "bookLists"); // eslint-disable-line
+// eslint-disable-next-line no-unused-vars
+const bookList = new BookList('.book-lists', '#form', 'bookLists');
 
 const listLink = document.getElementById('list-link');
 const addLink = document.getElementById('add-link');
